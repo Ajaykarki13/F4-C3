@@ -27,6 +27,7 @@ const Pincode = () => {
         else {
 
             fetchData(pincode);
+            setFiltrd([]);
         }
     }
 
@@ -81,6 +82,7 @@ const Pincode = () => {
 
 
                             </div>
+                           
                         ))}
             </div>
         </>
